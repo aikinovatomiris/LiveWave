@@ -1,0 +1,119 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-lw {
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    margin: 0 15px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navigation a:hover, .navigation a.active {
+    color: #8e44ad;
+  }
+  
+  .search {
+    position: relative;
+    width: 300px;
+  }
+  
+  .search input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #f5f5f5;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+  .search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+
+  .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+    border-radius: 0 0 8px 8px;
+    padding-inline-start: 0;
+  }
+  
+  .suggestions-list li {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .suggestions-list li img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .suggestions-list li div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .suggestions-list li:hover {
+    background-color: #f5f5f5;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  

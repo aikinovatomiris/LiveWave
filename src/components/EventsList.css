@@ -1,0 +1,28 @@
+.events-list {
+    margin: 40px 0 60px;
+  }
+  
+  .events-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .see-all {
+    color: #8e44ad;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .see-all::after {
+    content: '→';
+    margin-left: 5px;
+  }
+  
+  .events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
